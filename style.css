@@ -1,0 +1,76 @@
+body {
+    background-color: limegreen;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80;
+    margin: auto;
+}
+
+
+.pizzas {
+    /* display: flex; */
+}
+
+
+.pizza {
+    /* border: 1px solid #d11149; */
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 15em;
+    /* flex: 1; */
+    border-radius: 0.25em;
+    display: inline-block;
+    /* width: 10em; */
+    background-color: chocolate;
+    color: #011627;
+}
+
+.btn {
+    color: #ff9f1c;
+    background-color: #e71d36;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    float: right;
+}
+
+.yourCart {
+    margin: auto;
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+
+th, td {
+    border: 0.5px solid #fdfffc;
+    padding: 0.5em;
+}
+
+.message {
+    padding: 1em;
+    color: #e71d36;
+    width: 60%;
+    margin: auto;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart div {
+    flex: 1;
+}
+
+[x-cloak] { display: none !important; }
+
+img{
+    width: 80px;
+    height: 80px;
+}
