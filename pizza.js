@@ -132,6 +132,10 @@ document.addEventListener("alpine:init", () => {
                     .then(result => {
                         if (result.data.status === 'failure') {
                             this.message = result.data.message;
+                            setTimeout(() => {
+                                this.message = '';
+                            }, 3000);
+
                         } else {
                             this.message = 'Payment received!';
                             setTimeout(() => {

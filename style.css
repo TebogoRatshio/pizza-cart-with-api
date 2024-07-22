@@ -1,7 +1,7 @@
 body {
     background-color: limegreen;
     color: aliceblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
     border-radius: 0.25em;
     display: inline-block;
     /* width: 10em; */
-    background-color: chocolate;
+    background-color: dimgray;
     color: #011627;
 }
 
@@ -46,18 +46,22 @@ table {
     border-collapse: collapse;
     width: 60%;
     margin: auto;
+    background-color: dimgray;
 }
 
 th, td {
-    border: 0.5px solid #fdfffc;
+    border: 0.5px solid black;
     padding: 0.5em;
 }
 
 .message {
     padding: 1em;
-    color: #e71d36;
-    width: 60%;
+    color: red;
+    width: 57.7%;
     margin: auto;
+    background-color: whitesmoke;
+    display: flex
+    align-items: center;
 }
 
 .cart {

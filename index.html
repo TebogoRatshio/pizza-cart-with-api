@@ -16,6 +16,11 @@
 <body x-data="pizzaCart">
     <div class="container">
         <h1 x-text="title"></h1>
+        <style>
+            body {
+              background-image: url('realPizza.jpg');
+            }
+            </style>
 
 
 
@@ -30,7 +35,7 @@
                     Cart code: <span x-text="cartId"></span>
                 </div>
             </div>
-            <div x-show="cartTotal > 0">
+            <div x-show="cartTotal > 0 || cartId && cartPizzas.length > 0 && username">
                 <h2 class="yourCart">Your Cart</h2>
                 <div class="message" x-text="message">message here</div>
                 <table>
@@ -82,7 +87,7 @@
                     <td><img src="pizza-one.png" alt="Pizza picture" /></td>
                     <h5 x-text="pizza.flavour"></h5>
                     <!-- <span x-text="pizza.id"></span> -->
-                    <span x-text="pizza.size"></span> @
+                    <span x-text="pizza.size"></span> 
                     <strong>
                         R<span x-text="pizza.price"></span>
                     </strong>
