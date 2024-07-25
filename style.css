@@ -1,5 +1,4 @@
 body {
-    background-color: limegreen;
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -25,7 +24,7 @@ body {
     display: inline-block;
     /* width: 10em; */
     background-color: dimgray;
-    color: #011627;
+    color: yellow;
 }
 
 .btn {
@@ -35,6 +34,10 @@ body {
     padding: 0.5em;
     border-radius: 0.5em;
     float: right;
+}
+
+.history {
+    display: flex;
 }
 
 .yourCart {
@@ -61,7 +64,7 @@ th, td {
     margin: auto;
     background-color: whitesmoke;
     display: flex
-    align-items: center;
+    
 }
 
 .cart {
@@ -78,3 +81,42 @@ img{
     width: 80px;
     height: 80px;
 }
+
+
+.featured-pizzas {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center align the content */
+}
+
+.featured-pizza-grid {
+    display: flex; /* Use flexbox for inline layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 50px; /* Space between items */
+}
+
+.pizza-cart {
+    width: 200px; /* Width of each pizza card */
+    padding: 15px;
+   
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: dimgray;
+}
+
+
+
+.pizza-info {
+    margin-top: 10px;
+}
+
+.pizza-info h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.pizza-info p {
+    margin-bottom: 3px;
+    font-size: 0.9em;
+    color: yellow;
+}
+

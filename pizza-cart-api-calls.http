@@ -63,3 +63,19 @@ content-type: application/json
 	"cart_code" : "8T4FaPkrJn",
 	"amount" : 400
 }
+
+
+### Featured
+
+GET http://pizza-api.projectcodex.net/api/pizzas/featured?username=tebogoratshio
+
+
+### SET featured pizzas
+
+POST  https://pizza-api.projectcodex.net/api/pizzas/featured
+content-type: application/json
+
+{
+    "username" : "tebogoratshio",
+    "pizza_id" : 10
+}
