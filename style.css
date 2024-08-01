@@ -84,18 +84,18 @@ img{
 
 
 .featured-pizzas {
-    max-width: 800px; /* Adjust as needed */
-    margin: 0 auto; /* Center align the content */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .featured-pizza-grid {
-    display: flex; /* Use flexbox for inline layout */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    gap: 50px; /* Space between items */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 
 }
 
 .pizza-cart {
-    width: 200px; /* Width of each pizza card */
+    width: 200px; 
     padding: 15px;
    
     border: 1px solid #ddd;
